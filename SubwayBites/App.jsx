@@ -10,8 +10,6 @@ import MenuScreen from './src/screens/MenuScreen';
 import CustomizationScreen from './src/screens/CustomizationScreen';
 import CartScreen from './src/screens/CartScreen';
 import FavoritesScreen from './src/screens/FavoritesScreen';
-import ProfileScreen from './src/screens/ProfileScreen';
-import OrderHistoryScreen from './src/screens/OrderHistoryScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -30,8 +28,6 @@ const App = () => {
             <Stack.Screen name="Welcome" component={WelcomeScreen} />
             <Stack.Screen name="Menu" component={MenuScreen} />
             <Stack.Screen name="Favorites" component={FavoritesScreen} />
-            <Stack.Screen name="Profile" component={ProfileScreen} />
-            <Stack.Screen name="OrderHistory" component={OrderHistoryScreen} />
             <Stack.Screen 
               name="Customization" 
               component={CustomizationScreen} 
